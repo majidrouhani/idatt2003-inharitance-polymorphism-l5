@@ -1,6 +1,7 @@
 package edu.ntnu.idatt2001.lectures.generics.eks2;
 
 import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Generic version of the Box class.
@@ -8,13 +9,13 @@ import java.util.ArrayList;
  * @param <T> the type of the value being boxed
  */
 public class Box<T> {
-  private ArrayList<T> t = new ArrayList<>();
+  private List<T> t = new ArrayList<>();
 
   public void set(T t) {
     this.t.add(t);
   }
 
-  public ArrayList<T> get() {
+  public List<T> get() {
     return this.t;
   }
 }

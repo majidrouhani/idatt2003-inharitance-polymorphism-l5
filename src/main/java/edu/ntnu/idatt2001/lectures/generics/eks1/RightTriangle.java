@@ -6,9 +6,16 @@ public class RightTriangle extends Triangle {
     super(g, h, Math.sqrt(Math.pow(g, 2) + Math.pow(h, 2)));
   }
 
+  
+  
+  @Override public double calcArea() { 
+    return Math.round(this.a * this.b / 2); 
+  }
+
+   
   @Override
   public String toString() {
-    return "RettvinkletTrekant [g=" + this.side1 + ", h=" + this.side2 + ", getAreal()="
+    return "RettvinkletTrekant [g=" + this.a + ", h=" + this.b + ", getAreal()="
         + calcArea() + ", getOmkrets()=" + calcCircumference() + "]";
   }
 }

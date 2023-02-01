@@ -7,12 +7,12 @@ public class EquilateralTriangle extends Triangle {
 
   @Override
   public double calcArea() {
-    return Math.round(Math.sqrt(3) / 4 * Math.pow(this.side1, 2));
+    return Math.round(Math.sqrt(3) / 4 * Math.pow(this.a, 2));
   }
 
   @Override
   public String toString() {
-    return "LikesidetTrekant [s=" + this.side1 + ", getAreal()=" + calcArea() + ", getOmkrets()="
+    return "LikesidetTrekant [s=" + this.a + ", getAreal()=" + calcArea() + ", getOmkrets()="
         + calcCircumference() + "]";
   }
 

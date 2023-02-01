@@ -1,6 +1,7 @@
 package edu.ntnu.idatt2001.lectures.generics.eks1;
 
 import java.util.ArrayList;
+import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
@@ -9,7 +10,7 @@ public class App {
 
   public static void main(String[] args) {
 
-    ArrayList<Triangle> trekanter = new ArrayList<Triangle>();
+    List<Triangle> trekanter = new ArrayList<>();
 
     trekanter.add(new IsoscelesTriangle(10, 15));
     trekanter.add(new EquilateralTriangle(5));

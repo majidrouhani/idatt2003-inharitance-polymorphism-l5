@@ -7,13 +7,13 @@ public class IsoscelesTriangle extends Triangle {
 
   @Override
   public double calcArea() {
-    double h = Math.sqrt(Math.pow(this.side2, 2) - Math.pow(this.side1, 2) / 4);
-    return Math.round(h * this.side1 / 4);
+    double h = Math.sqrt(Math.pow(this.b, 2) - Math.pow(this.a, 2) / 4);
+    return Math.round(h * this.a / 4);
   }
 
   @Override
   public String toString() {
-    return "LikebenetTrekant [g=" + this.side1 + ", s=" + this.side2 + ", getAreal()=" + calcArea()
+    return "LikebenetTrekant [g=" + this.a + ", s=" + this.b + ", getAreal()=" + calcArea()
         + ", getOmkrets()=" + calcCircumference() + "]";
   }
 }

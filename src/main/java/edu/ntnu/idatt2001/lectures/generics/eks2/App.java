@@ -1,6 +1,7 @@
 package edu.ntnu.idatt2001.lectures.generics.eks2;
 
 import java.util.ArrayList;
+import java.util.List;
 
 import edu.ntnu.idatt2001.lectures.generics.eks1.IsoscelesTriangle;
 import edu.ntnu.idatt2001.lectures.generics.eks1.Triangle;
@@ -9,7 +10,7 @@ public class App {
 
   public static void main(String[] args) {
 
-    ArrayList<Object> store = new ArrayList<Object>();
+    List<Object> store = new ArrayList<>();
 
     Box<String> strBox = new Box<String>();
     strBox.set("Things");
