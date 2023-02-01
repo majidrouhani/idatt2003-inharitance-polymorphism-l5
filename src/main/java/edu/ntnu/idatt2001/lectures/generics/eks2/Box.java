@@ -18,4 +18,9 @@ public class Box<T> {
   public List<T> get() {
     return this.t;
   }
+
+  @Override
+  public String toString() {
+    return "Box [t=" + t + "]";
+  }  
 }

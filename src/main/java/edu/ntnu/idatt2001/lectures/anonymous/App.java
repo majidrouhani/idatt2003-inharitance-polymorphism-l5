@@ -8,33 +8,15 @@ public class App {
 
   public void sayHello() {
 
-    // Local class
-    class EnglishGreeting extends HelloWorld {
-      String name = "world";
-
-      public void greet() {
-        greetSomeone("world");
-      }
-
-      public void greetSomeone(String someone) {
-        name = someone;
-        log.log(Level.INFO, "{0}", name);
-      }
-    }
-
-    HelloWorld englishGreeting = new EnglishGreeting();
-
     // Anonymous class
     HelloWorld frenchGreeting = new HelloWorld() {
-      String name = "tout le monde";
 
       public void greet() {
         greetSomeone("tout le monde");
       }
 
       public void greetSomeone(String someone) {
-        name = someone;
-        log.log(Level.INFO, "{0}", name);
+        log.log(Level.INFO, "{0}", someone);
       }
     };
 
@@ -51,9 +33,8 @@ public class App {
         log.log(Level.INFO, "Hola, {0}", name);
       }
     };
-    englishGreeting.greet();
-    frenchGreeting.greetSomeone("Fred");
     spanishGreeting.greet();
+    frenchGreeting.greetSomeone("Fred");
   }
 
   public static void main(String... args) {

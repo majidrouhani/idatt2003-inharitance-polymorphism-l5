@@ -12,18 +12,22 @@ public class App {
 
     List<Object> store = new ArrayList<>();
 
-    Box<String> strBox = new Box<String>();
+    Box<String> strBox = new Box<>();
     strBox.set("Things");
     strBox.set("Another thing");
     store.add(strBox);
 
-    Box<Integer> intBox = new Box<Integer>();
+    Box<Integer> intBox = new Box<>();
     intBox.set(76);
     store.add(intBox);
 
-    Box<Triangle> triangleBox = new Box<Triangle>();
+    Box<Triangle> triangleBox = new Box<>();
     triangleBox.set(new IsoscelesTriangle(10, 15));
     store.add(triangleBox);
 
-  }
+
+    for (Object object: store) {
+        System.out.println(object);
+    }
+  }  
 }
