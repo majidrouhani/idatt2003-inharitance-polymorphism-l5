@@ -1,4 +1,4 @@
-package edu.ntnu.idatt2001.lectures.generics.eks1;
+package edu.ntnu.idatt2003.lectures.generics.eks1;
 
 public class IsoscelesTriangle extends Triangle {
   public IsoscelesTriangle(double g, double s) {

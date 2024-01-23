@@ -1,10 +1,10 @@
-package edu.ntnu.idatt2001.lectures.generics.eks2;
+package edu.ntnu.idatt2003.lectures.generics.eks2;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import edu.ntnu.idatt2001.lectures.generics.eks1.IsoscelesTriangle;
-import edu.ntnu.idatt2001.lectures.generics.eks1.Triangle;
+import edu.ntnu.idatt2003.lectures.generics.eks1.IsoscelesTriangle;
+import edu.ntnu.idatt2003.lectures.generics.eks1.Triangle;
 
 public class App {
 

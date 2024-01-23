@@ -1,4 +1,4 @@
-package edu.ntnu.idatt2001.lectures;
+package edu.ntnu.idatt2003.lectures;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 

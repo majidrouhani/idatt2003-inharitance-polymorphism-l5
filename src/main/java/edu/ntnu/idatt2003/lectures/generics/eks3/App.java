@@ -1,4 +1,4 @@
-package edu.ntnu.idatt2001.lectures.generics.eks3;
+package edu.ntnu.idatt2003.lectures.generics.eks3;
 
 import java.util.logging.Level;
 import java.util.logging.Logger;

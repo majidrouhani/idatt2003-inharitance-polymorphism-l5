@@ -1,4 +1,4 @@
-package edu.ntnu.idatt2001.lectures.anonymous;
+package edu.ntnu.idatt2003.lectures.anonymous;
 
 import java.util.logging.Level;
 import java.util.logging.Logger;

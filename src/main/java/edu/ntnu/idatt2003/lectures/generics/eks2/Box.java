@@ -1,4 +1,4 @@
-package edu.ntnu.idatt2001.lectures.generics.eks2;
+package edu.ntnu.idatt2003.lectures.generics.eks2;
 
 import java.util.ArrayList;
 import java.util.List;
